@@ -167,6 +167,18 @@ public final class Settings {
     public final Setting<Boolean> assumeWalkOnLava = new Setting<>(false);
 
     /**
+     * Allow Baritone to assume it can navigate using horses.
+     * When enabled, pathfinding will account for horse travel speeds and capabilities.
+     */
+    public final Setting<Boolean> assumeHorse = new Setting<>(false);
+
+    /**
+     * Allow Baritone to assume it can navigate using boats.
+     * When enabled, pathfinding will account for boat travel speeds and capabilities.
+     */
+    public final Setting<Boolean> assumeBoat = new Setting<>(false);
+
+    /**
      * Assume step functionality; don't jump on an Ascend.
      */
     public final Setting<Boolean> assumeStep = new Setting<>(false);
