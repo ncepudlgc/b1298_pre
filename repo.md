@@ -37,4 +37,4 @@ I would like to add a new feature to this minecraft java mod, baritone. I want t
 
 ## PR链接
 
-待创建
+https://github.com/ncepudlgc/b1298_pre/pull/1
